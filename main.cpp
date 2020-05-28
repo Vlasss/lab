@@ -1,4 +1,4 @@
-﻿#include "Functions.h"
+﻿#include "functions.h"
 
 int num;
 void menu()
@@ -15,7 +15,7 @@ void menu()
 }
 int main(int argc, char* argv[])
 {
-	if (argc <= 1) {
+	if (argc <= 2) {
 		cout << "Не задано имя файла" << endl;
 		return 0;
 	}

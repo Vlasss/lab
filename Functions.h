@@ -1,5 +1,5 @@
 #pragma once
-#include "Systema.h"
+#include "systema.h"
 
 
 void PrintP(Systema* dp, int n);

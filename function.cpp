@@ -1,4 +1,4 @@
-#include "Functions.h"
+#include "functions.h"
 
 void PrintP (Systema* dp, int n)
 {

@@ -6,7 +6,7 @@ function.o: function.cpp
 main.o: main.cpp	
 	g++ -c -o main.o main.cpp
 
-systema.o: Systema.cpp
+systema.o: systema.cpp
 	g++ -c -o systema.o systema.cpp
 
 laba: function.o main.o systema.o
